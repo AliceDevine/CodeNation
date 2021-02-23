@@ -1,0 +1,20 @@
+$gradient-right: linear-gradient(90deg, #d81159ff, #f17300ff, #ffbe0bff, #2d9f64ff, #006ba6ff, #62259dff, #1a1423ff, #7f5539ff, #5bc0ebff, #f0bcd4ff);
+
+body {
+  background-image: $gradient-right;
+};
+.container {
+  padding: 30px;
+  background-color: #fefefe;
+  box-shadow:
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+.center {
+  text-align: center;
+}
+h2 {
+  font-family: 'Poppins', sans-serif;
+  color:#fefefe;
+}

@@ -1,0 +1,21 @@
+body {
+  background-image: -webkit-gradient(linear, left top, right top, from(#d81159ff), color-stop(#f17300ff), color-stop(#ffbe0bff), color-stop(#2d9f64ff), color-stop(#006ba6ff), color-stop(#62259dff), color-stop(#1a1423ff), color-stop(#7f5539ff), color-stop(#5bc0ebff), to(#f0bcd4ff));
+  background-image: linear-gradient(90deg, #d81159ff, #f17300ff, #ffbe0bff, #2d9f64ff, #006ba6ff, #62259dff, #1a1423ff, #7f5539ff, #5bc0ebff, #f0bcd4ff);
+}
+
+.container {
+  padding: 30px;
+  background-color: #fefefe;
+  -webkit-box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px white, 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px white, 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.center {
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  color: #fefefe;
+}
+/*# sourceMappingURL=style.css.map */

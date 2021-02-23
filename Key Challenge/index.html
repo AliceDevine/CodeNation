@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>What key did you press?</title>
+</head>
+<body>
+    
+  <div class="row align-items-center justify-items-center mt-5">
+    <div class="col">
+       <h2 class="display-2 center">Press any key</h2>
+    </div>
+  </div>
+<div class="container mt-5">
+
+  <div class="row align-items-center justify-items-center">
+    <div class="col">
+
+      <p class="center">If you press a key on your keyboard, the boxes below should tell you what you have pressed.</p>
+    </div>
+  </div>
+  <div class="row align-items-center justify-items-center mt-4">
+    <div class="col-md-4 col-sm-12 mb-4">
+      <div class="card">
+    <div class="card-header center">
+        event.which
+    </div>
+    <div class="card-body">
+     <p class="card-text center" id="eventWhich">event.which is deprecated</p>
+    </div>
+  </div>
+    </div>
+    <div class="col-md-4 col-sm-12 mb-4">
+      <div class="card">
+    <div class="card-header center">
+        event.key
+    </div>
+    <div class="card-body">
+     <p class="card-text center" id="eventKey">&nbsp;</p>
+    </div>
+  </div>
+    </div>
+    <div class="col-md-4 col-sm-12 mb-4">
+       <div class="card">
+    <div class="card-header center">
+        event.code
+    </div>
+    <div class="card-body">
+     <p class="card-text center" id="eventCode">&nbsp;</p>
+    </div>
+  </div>
+    </div>
+  </div>
+</div>
+
+<script src="keyChallenge.js"></script>
+</body>
+</html>
