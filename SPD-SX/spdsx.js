@@ -32,5 +32,5 @@ pad1.addEventListener("click", () => {
    pad1audio.play();
 });
 pad2.addEventListener("click", () => {
-    pad2audio.play();
+    pad2qwaudio.play();
  });
