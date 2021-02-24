@@ -1,0 +1,51 @@
+.controller {
+   background-color: black;
+   padding: 20px;
+}
+
+.pad {
+    display:flex;
+    align-self:baseline;
+    min-height: 140px;
+    min-width:140px;
+    border:5px solid black;
+    &.blue {
+        background: radial-gradient(circle, hsla(189, 100%, 50%, 1) 0%, hsla(189, 100%, 24%, 1) 100%);
+
+background: -moz-radial-gradient(circle, hsla(189, 100%, 50%, 1) 0%, hsla(189, 100%, 24%, 1) 100%);
+
+background: -webkit-radial-gradient(circle, hsla(189, 100%, 50%, 1) 0%, hsla(189, 100%, 24%, 1) 100%);
+    }
+    &.pink {
+        background: radial-gradient(circle, hsla(330, 100%, 75%, 1) 0%, hsla(330, 33%, 41%, 1) 100%);
+
+        background: -moz-radial-gradient(circle, hsla(330, 100%, 75%, 1) 0%, hsla(330, 33%, 41%, 1) 100%);
+        
+        background: -webkit-radial-gradient(circle, hsla(330, 100%, 75%, 1) 0%, hsla(330, 33%, 41%, 1) 100%)}
+    &.green {
+        background: radial-gradient(circle, hsla(152, 100%, 50%, 1) 0%, hsla(152, 100%, 25%, 1) 100%);
+
+        background: -moz-radial-gradient(circle, hsla(152, 100%, 50%, 1) 0%, hsla(152, 100%, 25%, 1) 100%);
+        
+        background: -webkit-radial-gradient(circle, hsla(152, 100%, 50%, 1) 0%, hsla(152, 100%, 25%, 1) 100%);
+        }
+        &.yellow {
+            background: radial-gradient(circle, hsla(58, 100%, 93%, 1) 0%, hsla(58, 69%, 40%, 1) 100%);
+
+background: -moz-radial-gradient(circle, hsla(58, 100%, 93%, 1) 0%, hsla(58, 69%, 40%, 1) 100%);
+
+background: -webkit-radial-gradient(circle, hsla(58, 100%, 93%, 1) 0%, hsla(58, 69%, 40%, 1) 100%)
+        }
+        &.orange {
+            background: radial-gradient(circle, hsla(45, 100%, 71%, 1) 0%, hsla(45, 100%, 40%, 1) 100%);
+
+background: -moz-radial-gradient(circle, hsla(45, 100%, 71%, 1) 0%, hsla(45, 100%, 40%, 1) 100%);
+
+background: -webkit-radial-gradient(circle, hsla(45, 100%, 71%, 1) 0%, hsla(45, 100%, 40%, 1) 100%);
+        }
+        &.purple {background: radial-gradient(circle, hsla(273, 100%, 91%, 1) 0%, hsla(272, 100%, 55%, 1) 100%);
+
+            background: -moz-radial-gradient(circle, hsla(273, 100%, 91%, 1) 0%, hsla(272, 100%, 55%, 1) 100%);
+            
+            background: -webkit-radial-gradient(circle, hsla(273, 100%, 91%, 1) 0%, hsla(272, 100%, 55%, 1) 100%);}
+}

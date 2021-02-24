@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Roland SPD-SX</title>
+</head>
+<body>
+    <div class="container d-flex justify-content-center align-items-center">
+        <div class="controller">
+            <div class="row row1">
+                <div class="col-3 pad blue d-flex flex-column justify-content-between" id="pad1">
+                    <p>Pad 1<br>Key Q</p><p>cowbell</p>
+                    <audio id="pad1audio" src="808-audio/cowbell.wav"></audio>
+                </div>
+                <div class="col-3 pad pink" id="pad2"><p>Pad 2<br>Key W</p><p>Clap</p>
+                <audio src="808-audio/clap.wav" id="pad2audio"></audio></div>
+                <div class="col-3 pad pink" id="pad3"> pad3</div>
+                <div class="col-3 pad blue" id="pad4"> pad4</div>
+            </div>
+            <div class="row row2">
+                <div class="col-3 pad green" id="pad5"> pad5
+                </div>
+                <div class="col-3 pad green" id="pad6"> pad6</div>
+                <div class="col-3 pad blue" id="pad7"> pad7</div>
+                <div class="col-3 pad yellow" id="pad8"> pad8</div>
+            </div>
+            <div class="row row3">
+                <div class="col-3 pad orange" id="pad9"> pad 9</div>
+                <div class="col-3 pad orange" id="pad10"> pad 10</div>
+                <div class="col-3 pad purple" id="pad11"> pad 11</div>
+                <div class="col-3 pad purple" id="pad12"> pad 12</div>
+            </div>
+            <div class="row row4">
+                <div class="col-3 pad purple" id="pad13"> pad 13
+                </div>
+                <div class="col-3 pad purple" id="pad14"> pad 14</div>
+                <div class="col-3 pad purple" id="pad15"> pad 15</div>
+                <div class="col-3 pad purple" id="pad16"> pad 16</div>
+            </div>
+        </div>
+    </div>
+<script src="spdsx.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+.controller {
+  background-color: black;
+  padding: 20px;
+}
+
+.pad {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: baseline;
+      align-self: baseline;
+  min-height: 140px;
+  min-width: 140px;
+  border: 5px solid black;
+}
+
+.pad.blue {
+  background: radial-gradient(circle, #00d9ff 0%, #00687a 100%);
+  background: -webkit-radial-gradient(circle, #00d9ff 0%, #00687a 100%);
+}
+
+.pad.pink {
+  background: radial-gradient(circle, #ff80bf 0%, #8b4669 100%);
+  background: -webkit-radial-gradient(circle, #ff80bf 0%, #8b4669 100%);
+}
+
+.pad.green {
+  background: radial-gradient(circle, #00ff88 0%, #008044 100%);
+  background: -webkit-radial-gradient(circle, #00ff88 0%, #008044 100%);
+}
+
+.pad.yellow {
+  background: radial-gradient(circle, #fffedb 0%, #aca820 100%);
+  background: -webkit-radial-gradient(circle, #fffedb 0%, #aca820 100%);
+}
+
+.pad.orange {
+  background: radial-gradient(circle, #ffda6b 0%, #cc9900 100%);
+  background: -webkit-radial-gradient(circle, #ffda6b 0%, #cc9900 100%);
+}
+
+.pad.purple {
+  background: radial-gradient(circle, #ead1ff 0%, #941aff 100%);
+  background: -webkit-radial-gradient(circle, #ead1ff 0%, #941aff 100%);
+}
+/*# sourceMappingURL=style.css.map */
