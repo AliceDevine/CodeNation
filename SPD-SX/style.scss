@@ -6,8 +6,15 @@
 .pad {
     display:flex;
     align-self:baseline;
-    min-height: 140px;
-    min-width:140px;
+    
+    @media (max-width: 599.99px) {
+        min-height: 100px;
+        min-width:100px;
+    }
+    @media (min-width: 600px) {
+        min-height: 140px;
+        min-width:140px; 
+    }
     border:5px solid black;
     &.blue {
         background: radial-gradient(circle, hsla(189, 100%, 50%, 1) 0%, hsla(189, 100%, 24%, 1) 100%);

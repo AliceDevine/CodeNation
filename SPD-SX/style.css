@@ -9,9 +9,21 @@
   display: flex;
   -ms-flex-item-align: baseline;
       align-self: baseline;
-  min-height: 140px;
-  min-width: 140px;
   border: 5px solid black;
+}
+
+@media (max-width: 599.99px) {
+  .pad {
+    min-height: 100px;
+    min-width: 100px;
+  }
+}
+
+@media (min-width: 600px) {
+  .pad {
+    min-height: 140px;
+    min-width: 140px;
+  }
 }
 
 .pad.blue {
