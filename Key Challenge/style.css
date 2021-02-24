@@ -18,4 +18,20 @@ h2 {
   font-family: 'Poppins', sans-serif;
   color: #fefefe;
 }
+
+@media only screen and (min-width: 650px) {
+  .mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .mobile {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: .25rem;
+    margin-bottom: 10px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
