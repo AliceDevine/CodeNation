@@ -26,7 +26,7 @@ document.addEventListener('keydown', (key) => {
            pad1audio.play();
         case "KeyW":
             pad2audio.play();
-        case "Key E":
+        case "KeyE":
             pad3audio.play();
     } ;  
 });
