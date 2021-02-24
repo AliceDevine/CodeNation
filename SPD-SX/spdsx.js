@@ -17,6 +17,7 @@ let pad16 = document.getElementById("pad16");
 
 let pad1audio = document.getElementById("pad1audio");
 let pad2audio = document.getElementById("pad2audio");
+let pad3audio = document.getElementById("pad3audio");
 
 document.addEventListener('keydown', (key) => {
     console.log(key.code)
@@ -25,6 +26,8 @@ document.addEventListener('keydown', (key) => {
            pad1audio.play();
         case "KeyW":
             pad2audio.play();
+        case "Key E":
+            pad3audio.play();
     } ;  
 });
 
@@ -32,5 +35,8 @@ pad1.addEventListener("click", () => {
    pad1audio.play();
 });
 pad2.addEventListener("click", () => {
-    pad2qwaudio.play();
+    pad2audio.play();
+ });
+pad3.addEventListener("click", () => {
+    pad3audio.play();
  });

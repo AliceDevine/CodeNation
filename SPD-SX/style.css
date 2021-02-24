@@ -10,6 +10,8 @@
   -ms-flex-item-align: baseline;
       align-self: baseline;
   border: 5px solid black;
+  color: black;
+  font-weight: 500;
 }
 
 @media (max-width: 599.99px) {
@@ -54,5 +56,11 @@
 .pad.purple {
   background: radial-gradient(circle, #ead1ff 0%, #941aff 100%);
   background: -webkit-radial-gradient(circle, #ead1ff 0%, #941aff 100%);
+}
+
+.pad.disabled {
+  color: white;
+  background: radial-gradient(circle, #454545 0%, #9c9c9c 100%);
+  background: -webkit-radial-gradient(circle, #454545 0%, #9c9c9c 100%);
 }
 /*# sourceMappingURL=style.css.map */
