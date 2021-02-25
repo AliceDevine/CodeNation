@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="row mt-5">
+        <div class="col">
+            <h2 class="display-2 center">Roll the dice</h2>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col">
+                <p class="center">Roll the dice and get your score to 21... Without rolling a 1!</p>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-6 mb-4">
+                <div class="card">
+                    <div class="card-header center">
+                        Your score
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text center" id="score">&nbsp;<br></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 mb-4 ">
+                <div id="diceBox">
+                    <div class="blank-face" id="blank"><span class="pip">&nbsp; ?</span></div>
+                    <div class="first-face" style="display:none;" id="dice1">
+                        <span class="pip"></span>
+                    </div>
+                    <div class="second-face" style="display:none;" id="dice2">
+                        <span class="pip" id="dice2"></span>
+                        <span class="pip" id="dice2"></span>
+                    </div>
+                    <div class="third-face" style="display:none;" id="dice3">
+                        <span class="pip"></span>
+                        <span class="pip"></span>
+                        <span class="pip"></span>
+                    </div>
+                    <div class="fourth-face diceface" style="display:none;" id="dice4">
+                        <div class="column">
+                            <span class="pip"></span>
+                            <span class="pip"></span>
+                        </div>
+                        <div class="column">
+                            <span class="pip"></span>
+                            <span class="pip"></span>
+                        </div>
+                    </div>
+                    <div class="fifth-face diceface" style="display:none;" id="dice5">
+                        <div class="column">
+                            <span class="pip"></span>
+                            <span class="pip"></span>
+                        </div>
+                        <div class="column">
+                            <span class="pip"></span>
+                        </div>
+                        <div class="column">
+                            <span class="pip"></span>
+                            <span class="pip"></span>
+                        </div>
+                    </div>
+                    <div class="sixth-face diceface" style="display:none;" id="dice6">
+                        <div class="column">
+                            <span class="pip"></span>
+                            <span class="pip"></span>
+                            <span class="pip"></span>
+                        </div>
+                        <div class="column">
+                            <span class="pip"></span>
+                            <span class="pip"></span>
+                            <span class="pip"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 mb-4">
+                    <button type="button" class="btn btn-secondary btn-lg" id="roll">Roll</button>
+                </div>
+            </div>
+                
+            </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
