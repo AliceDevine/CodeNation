@@ -1,3 +1,7 @@
+.info {
+  margin-bottom: 20px;
+}
+
 .controller {
   background-color: black;
   padding: 20px;
@@ -34,8 +38,8 @@
 }
 
 .pad.pink {
-  background: radial-gradient(circle, #ff80bf 0%, #8b4669 100%);
-  background: -webkit-radial-gradient(circle, #ff80bf 0%, #8b4669 100%);
+  background: radial-gradient(circle, #ffbded 0%, #c2008e 100%);
+  background: -webkit-radial-gradient(circle, #ffbded 0%, #c2008e 100%);
 }
 
 .pad.green {

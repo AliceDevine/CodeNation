@@ -1,53 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Roland SPD-SX</title>
 </head>
+
 <body>
-    <div class="container d-flex justify-content-center align-items-center">
+    <div class="container d-flex justify-content-center align-items-center flex-column">
+        <div class="row">
+            <div class="d-flex info">
+                <h1>Drum Sample pad</h1>
+            </div>
+        </div>
         <div class="controller">
             <div class="row row1">
                 <div class="col-3 pad blue d-flex flex-column justify-content-between" id="pad1">
-                    <p>Pad 1<br>Key Q</p><p>cowbell</p>
+                    <p>Pad 1<br>Key Q</p>
+                    <p>cowbell</p>
                     <audio id="pad1audio" src="808-audio/cowbell.wav"></audio>
                 </div>
                 <div class="col-3 pad blue d-flex flex-column justify-content-between" id="pad2">
-                    <p>Pad 2<br>Key W</p><p>Clap</p>
+                    <p>Pad 2<br>Key W</p>
+                    <p>Clap</p>
                     <audio src="808-audio/clap.wav" id="pad2audio"></audio>
                 </div>
                 <div class="col-3 pad blue d-flex flex-column justify-content-between" id="pad3">
-                    <p>Pad 3<br>Key E</p><p>Clave</p>
+                    <p>Pad 3<br>Key E</p>
+                    <p>Clave</p>
                     <audio src="808-audio/clave.wav" id="pad3audio"></audio>
                 </div>
-                <div class="col-3 pad disabled d-flex flex-column justify-content-between" id="pad4"><p>Pad 4</p><p>Empty</p></div>
+                <div class="col-3 pad disabled d-flex flex-column justify-content-between" id="pad4">
+                    <p>Pad 4<br></p>
+                    <p>Empty</p>
+                </div>
             </div>
             <div class="row row2">
-                <div class="col-3 pad green" id="pad5"> pad5
+                <div class="col-3 pad green d-flex flex-column justify-content-between" id="pad5">
+                    <p>Pad 5<br>Key A</p>
+                    <p>HiHat 1</p>
+                    <audio src="808-audio/hat1.wav" id="pad5audio"></audio>
                 </div>
-                <div class="col-3 pad green" id="pad6"> pad6</div>
-                <div class="col-3 pad blue" id="pad7"> pad7</div>
-                <div class="col-3 pad yellow" id="pad8"> pad8</div>
+                <div class="col-3 pad green d-flex flex-column justify-content-between" id="pad6">
+                    <p>Pad 6<br>Key S</p>
+                    <p>HiHat 2</p>
+                    <audio src="808-audio/hat2.wav" id="pad6audio"></audio>
+                </div>
+                <div class="col-3 pad green d-flex flex-column justify-content-between" id="pad7">
+                    <p>Pad 7<br>Key D</p>
+                    <p>HiHat Open</p>
+                    <audio src="808-audio/hatOpen.wav" id="pad7audio"></audio>
+                </div>
+                <div class="col-3 pad yellow d-flex flex-column justify-content-between" id="pad8">
+                    <p>Pad 8<br>Key F</p>
+                    <p>Crash</p>
+                    <audio src="808-audio/crash.wav" id="pad8audio"></audio>
+                </div>
             </div>
+
             <div class="row row3">
-                <div class="col-3 pad orange" id="pad9"> pad 9</div>
-                <div class="col-3 pad orange" id="pad10"> pad 10</div>
-                <div class="col-3 pad purple" id="pad11"> pad 11</div>
-                <div class="col-3 pad purple" id="pad12"> pad 12</div>
-            </div>
-            <div class="row row4">
-                <div class="col-3 pad purple" id="pad13"> pad 13
+                <div class="col-3 pad pink d-flex flex-column justify-content-between" id="pad9">
+                    <p>Pad 9<br>Key U</p>
+                    <p>Snare 1</p>
+                    <audio src="808-audio/snare1.wav" id="pad9audio"></audio>
                 </div>
-                <div class="col-3 pad purple" id="pad14"> pad 14</div>
-                <div class="col-3 pad purple" id="pad15"> pad 15</div>
-                <div class="col-3 pad purple" id="pad16"> pad 16</div>
+                <div class="col-3 pad pink d-flex flex-column justify-content-between" id="pad10">
+                    <p>Pad 10<br>Key I</p>
+                    <p>Snare 2</p>
+                    <audio src="808-audio/snare2.wav" id="pad10audio"></audio>
+                </div>
+                <div class="col-3 pad pink d-flex flex-column justify-content-between" id="pad11">
+                    <p>Pad 11<br>Key O</p>
+                    <p>Snare 3</p>
+                    <audio src="808-audio/snare3.wav" id="pad11audio"></audio>
+                </div>
+                <div class="col-3 pad purple d-flex flex-column justify-content-between" id="pad12">
+                    <p>Pad 12<br>Key P</p>
+                    <p>Tom 1</p>
+                    <audio src="808-audio/tom1.wav" id="pad12audio"></audio>
+                </div>
+            </div>
+
+            <div class="row row4">
+                <div class="col-3 pad orange d-flex flex-column justify-content-between" id="pad13">
+                    <p>Pad 13<br>Key J</p>
+                    <p>Kick 1</p>
+                    <audio src="808-audio/kick1.wav" id="pad13audio"></audio>
+                </div>
+                <div class="col-3 pad orange d-flex flex-column justify-content-between" id="pad14">
+                    <p>Pad 14<br>Key K</p>
+                    <p>Kick 2</p>
+                    <audio src="808-audio/kick2.wav" id="pad14audio"></audio>
+                </div>
+                <div class="col-3 pad orange d-flex flex-column justify-content-between" id="pad15">
+                    <p>Pad 15<br>Key K</p>
+                    <p>Kick 3</p>
+                    <audio src="808-audio/kick3.wav" id="pad15audio"></audio>
+                </div>
+                <div class="col-3 pad purple d-flex flex-column justify-content-between" id="pad16">
+                    <p>Pad 16<br>Key ;</p>
+                    <p>Tom 2</p>
+                    <audio src="808-audio/tom2.wav" id="pad16audio"></audio>
+                </div>
             </div>
         </div>
     </div>
-<script src="spdsx.js"></script>
+    <script src="spdsx.js"></script>
 </body>
+
 </html>
